@@ -13,7 +13,9 @@
     "ajv-errors": "^2.0.0",
     "ajv-i18n": "^3.6.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "jss-preset-default": "^10.5.0",
+    "vue": "^3.0.0",
+    "vue-jss": "^0.0.4"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
@@ -35,6 +37,7 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.5.0",
+    "monaco-editor": "^0.21.2",
     "prettier": "^1.19.1",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
