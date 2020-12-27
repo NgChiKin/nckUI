@@ -1,21 +1,11 @@
-import { defineComponent, PropType } from 'vue'
-import { Schema, SchemaTypes } from './types'
-import StringFields from './fields/StringFields'
+import { defineComponent } from 'vue'
+import { SchemaTypes, defalutProps } from './types'
+// import StringFields from './fields/StringFields'
+import StringFields from './fields/StringFields.vue'
 import NumberFields from './fields/NumberFields'
 
 export default defineComponent({
-  props: {
-    schema: {
-      type: Object as PropType<Schema>
-    },
-    value: {
-      required: true
-    },
-    onChange: {
-      type: Function as PropType<(v: any) => void>,
-      required: true
-    }
-  },
+  props: defalutProps,
   name: 'SchemaFormItem',
   setup(props) {
     return () => {
