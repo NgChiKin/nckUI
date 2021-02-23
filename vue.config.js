@@ -15,7 +15,7 @@ module.exports = {
     config.plugin('monaco').use(new MonacoWebpackPlugin())
   },
   devServer: {
-    open: true
+    open: true // test
   },
   pwa: {}
 }
